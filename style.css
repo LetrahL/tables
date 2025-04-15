@@ -1,0 +1,63 @@
+body {
+    font-family: "Winky Rough", sans-serif; /* font for whole page */
+    font-optical-sizing: auto; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px;
+    background-image: url(/image/pramod-tiwari-XrGzHCe4yAY-unsplash.jpg); /* background for whole page */
+    background-size: cover;
+  }
+
+  h1 {
+    color: #4169e1; /* dark blue title */
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  caption {
+
+    padding: 20px 20px;
+    border: 2px solid #4169e1;
+    background-color: #87ceeb;
+    border-radius: 8px;
+    font-size: 24px;
+    font-style: italic;
+    color: #4a6fcc;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 4%;
+    margin-bottom: 4%
+
+    
+  }
+
+  .text-wrapper{
+    text-align: center;
+  }
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #87ceeb; /* light blue table background */
+    color: #fdfeff;
+  }
+
+  th, td {
+    border: 3px solid #063df0; /* blue border */
+    padding: 15px;
+    text-align: left;
+  }
+
+
+  tr:nth-child(even) {
+    background-color: #53b0ee; /* very light blue for even # rows */
+}
+  
+  tr:hover {
+    background-color: #c71585;
+} /* pink hover effect */
+
+    
+    
